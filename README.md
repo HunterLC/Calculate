@@ -1,2 +1,2 @@
 # Calculate
-web demo for calculate
+web demo for calculating
