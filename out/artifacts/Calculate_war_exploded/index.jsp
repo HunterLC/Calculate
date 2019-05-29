@@ -1,6 +1,5 @@
 <%--
   Created by IntelliJ IDEA.
-  User: nikoyou
   Date: 2019-05-24
   Time: 22:41
   To change this template use File | Settings | File Templates.
@@ -174,9 +173,9 @@
             "valid?sid=" + sid + "&answer=" + answer + "&counter=" + counter, //传入用户答题时间
             function (response) {
               if (response == "right") {
-                alert("答对了，你可真是个小机灵鬼！");
+                alert("答案正确");
               } else {
-                alert("答错了哦小可怜。。。");
+                alert("答案错误");
               }
               $("#answer").val("");
               getProblem();
